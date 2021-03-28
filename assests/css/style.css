@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+header {
+    height: 150px;
+    background-color: #FF9E00;
+}
+.header {
+    max-width: 1311px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 250px;   
+}
+.menu {
+    flex: 1;
+    background-color: brown;
+     
+}
+.logoimg {
+    width: 200px;
+    height: 111px;
+    background-color: #b28756;
+    margin: auto;
+}
