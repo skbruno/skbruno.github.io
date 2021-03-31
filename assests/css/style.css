@@ -44,15 +44,13 @@ nav {
 .sobre_mim {
     background-color: #23364A;
     border-bottom: 7px solid #000;
+    
 }
 .container_sobre {
     display: flex; 
     align-items: center;
     justify-content: center;
     padding: 30px;
-}
-.sobre_mim_right {
-
 }
 .sobre_mim_right h2 {
     text-align: center;
@@ -66,10 +64,10 @@ nav {
     display: block;
     width: 450px;
     height: 150;
-    font-size: 15px;
+    font-size: 17px;
     align-items: center;
     color: #fff;
-    font-size: 18px;
+    
 }
 .container_sobre img {
     width: 400px;
@@ -81,40 +79,41 @@ nav {
 
 
 
-.projetos  {
+.projetos {
     background-color: #1C2B3B;
-}
-.container_projetos {
-    padding: 50px;
-    border-bottom: 7px solid #000;
-   
-}
-.container_projetos h2 {
-    color: #fff;
-    font-size: 45px;
     text-align: center;
-    
+    color: #fff;
+    padding-top: 50px;
+    border-bottom: 7px solid #000;
 }
 .projetos_body {
-    max-width: 0px;
+    max-width: 1920px;
     margin: auto;
-
     display: flex;
     justify-content: center;
     
 }
 .projetos_body div {
-    margin-top: 50px;
-    margin-right: 100px;
+    margin-right: 70px;
 }
 .projetos_body img {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     margin-bottom: 30px;
 }
-.projetos_body p {
-color: #fff ;
+.container_projetos h2 {
+    padding-bottom: 50px;
+    font-size: 45px;
 }
+.projetos_body p {
+    width: 370px;
+    height: 370px;
+    font-size: 15px;   
+}
+
+
+
+
 
 
 
@@ -128,12 +127,15 @@ color: #fff ;
 .container_habilidades {
     padding: 50px;
     border-bottom: 7px solid #000;
+    padding-bottom: 70px;
+    
 }
 .container_habilidades h2 {
     color: #fff;
     font-size: 45px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    
 }
 .container_habilidades p {
     display: block;
@@ -166,14 +168,12 @@ color: #fff ;
     padding-bottom: 30px;
     border-bottom: 3px solid #000;
 }
-.container_contatos {
-    
-}
 .container_contatos h2 {
     color: #fff;
     font-size: 45px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    padding-top: 30px;
 }
 .container_contatos p {
     color: #fff;
@@ -184,9 +184,11 @@ color: #fff ;
     margin-right: auto;
 }
 .container_contatos img {
-    margin-right: 50px;
-    margin-top: 50px; 
+    margin-right: 40px;
+    margin-top: 40px; 
 }
+
+
 
 
 .footer {
