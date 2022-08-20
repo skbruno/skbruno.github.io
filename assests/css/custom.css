@@ -1,0 +1,87 @@
+body, 
+html {
+    /* Font */
+    font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+}
+
+#header .navbar-collapse {
+    width: auto;
+}
+
+#header .nav-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    color: var(--title-color);
+    border-bottom: solid 4px transparent;
+}
+
+#header .nav-link:hover {
+    border-bottom: solid 4px var(--primary-hover);
+    color: var(--primary-hover);
+}
+
+.button {
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+.btn-success {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-success:hover {
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
+}
+
+.btn-success-outline {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-success-outline:hover{
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
+}
+
+#slider h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#slider h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.img-pg {
+    width: 80%;
+}
+
+.title {
+    text-transform: uppercase;
+    color: var(--title-color);
+    font-weight: 600;
+    text-align:start;
+}
+
+.subtitle {
+    color: var(--text-color);
+    font-weight: 400;
+    text-align:start;
+}
+
+.text_p {
+    text-align: start;
+}
