@@ -4,6 +4,14 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+a {
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--primary-hover);
+}
+
 #header {
     width: 100%;
     background-color: transparent;
@@ -67,6 +75,11 @@ html {
 
 .img-pg {
     width: 80%;
+    margin-left: 20px;
+}
+
+#sobre {
+    padding-top: 65px;
 }
 
 .title {
@@ -84,4 +97,63 @@ html {
 
 .text_p {
     text-align: start;
+}
+
+#sobre .img-sobre {
+    width: 80%;
+}
+
+#sobre .sec-title  {
+    padding-bottom: 30px;
+}
+
+.sec-title {
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-weight: 600;
+    text-align:start;
+}
+
+#projetos .sec-title {
+    padding-top: 70px;
+}
+
+#projetos a.destaque {
+    display: block;
+    background: var(--light-color);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: #000;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+}
+
+#projetos .row {
+    padding-bottom: 50px;
+}
+
+#projetos img {
+    width: 200px;
+    border-color: #fff;
+}
+
+#projetos .img-tecnologias {
+    width: 40px;
+}
+
+#projetos h5 {
+    text-transform: uppercase;
+    color: var(--title-color);
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+#projetos p {
+    text-align:start;
+}
+
+#projetos a.destaque:hover {
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
 }
